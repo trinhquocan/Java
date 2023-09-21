@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="com.tqk_QuanLyDatVeXe_war_1.0-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.tqk.pojo.OffPayment</class>
+    <class>com.tqk.pojo.CustomerRegistration</class>
+    <class>com.tqk.pojo.TicketSalesTransaction</class>
+    <class>com.tqk.pojo.Customer</class>
+    <class>com.tqk.pojo.Users</class>
+    <class>com.tqk.pojo.Driver</class>
+    <class>com.tqk.pojo.Trip</class>
+    <class>com.tqk.pojo.RevenueStatistics</class>
+    <class>com.tqk.pojo.Route</class>
+    <class>com.tqk.pojo.Employee</class>
+    <class>com.tqk.pojo.Ticket</class>
+    <class>com.tqk.pojo.Login</class>
+    <class>com.tqk.pojo.Feedback</class>
+    <class>com.tqk.pojo.OnlinePayment</class>
+    <class>com.tqk.pojo.User</class>
+    <class>com.tqk.pojo.Xe</class>
+    <class>com.tqk.pojo.Vexe</class>
+    <class>com.tqk.pojo.Benxe</class>
+    <class>com.tqk.pojo.ChuyenxeXe</class>
+    <class>com.tqk.pojo.Role</class>
+    <class>com.tqk.pojo.Chuyenxe</class>
+    <class>com.tqk.pojo.Ghe</class>
+    <class>com.tqk.pojo.Binhluan</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/quan_ly_ve_xe?zeroDateTimeBehavior=CONVERT_TO_NULL"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="Admin@123"/>
+    </properties>
+  </persistence-unit>
+</persistence>
